@@ -1,7 +1,17 @@
+package bicycles;
+
+import bicycles.Bicycle;
+
 public class BikeRide {
 
 
-BikeRide(){
+    private final Bicycle bicycle;
+
+    public BikeRide(Bicycle bicycle){
+        this.bicycle = bicycle;
+
+
+      }
 
     public void ride() {
         this.bicycle.accelerate();
@@ -12,6 +22,9 @@ BikeRide(){
         this.bicycle.accelerate();
     }
 
-}
+    public int currentSpeed() {
+        return this.bicycle.currentSpeed();
+    }
+
 
 }

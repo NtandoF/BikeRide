@@ -8,17 +8,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BicycleTest {
 
     @Test
-    public void shouldAccellerate() {
+    public void RoadBikeTest() {
 
-        Bicycle bicycle = new Bicycle();
-        bicycle.accelerate();
-        assertEquals(5, bicycle.currentSpeed());
+        RoadBike bicycle = new RoadBike();
+        BikeRide bikeRide = new BikeRide(bicycle);
+        bikeRide.ride();
 
-        bicycle.brake();
-        assertEquals(bicycle.currentSpeed(), 2);
+        assertEquals(36, bikeRide.currentSpeed());
 
-        bicycle.stop();
-        assertEquals(bicycle.currentSpeed(), 0);
+
+    }
+
+    @Test
+    public void MountainBikeTest(){
+
+        MountainBike bicycle = new MountainBike();
+        BikeRide bikeride = new BikeRide(bicycle);
+        bikeride.ride();
+
+        assertEquals(14, bikeride.currentSpeed());
     }
 
 }
