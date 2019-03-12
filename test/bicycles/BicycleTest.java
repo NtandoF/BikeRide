@@ -14,7 +14,7 @@ public class BicycleTest {
         BikeRide bikeRide = new BikeRide(bicycle);
         bikeRide.ride();
 
-        assertEquals(36, bikeRide.currentSpeed());
+        assertEquals(52, bikeRide.currentSpeed());
 
 
     }
@@ -26,7 +26,7 @@ public class BicycleTest {
         BikeRide bikeride = new BikeRide(bicycle);
         bikeride.ride();
 
-        assertEquals(14, bikeride.currentSpeed());
+        assertEquals(26, bikeride.currentSpeed());
     }
 
 }

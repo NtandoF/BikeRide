@@ -1,22 +1,23 @@
 package bicycles;
 
-public class MountainBike implements Bicycle {
+public class MountainBike extends BicycleBase {
 
-    private int speed = 0;
+//    private int speed = 0;
 
     public void accelerate() {
-        speed += 5;
+        changeSpeed(5);
     }
 
     public void brake(){
-        speed -= 3;
+
+        changeSpeed(3);
     }
 
-    public int currentSpeed(){
-        return speed;
-    }
-
-    public void stop(){
-        speed = 0;
-    }
+//    public int currentSpeed(){
+//        return speed;
+//    }
+//
+//    public void stop(){
+//        speed = 0;
+//    }
 }
