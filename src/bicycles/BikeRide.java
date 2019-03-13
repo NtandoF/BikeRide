@@ -2,29 +2,12 @@ package bicycles;
 
 import bicycles.Bicycle;
 
-public class BikeRide {
+public interface BikeRide {
 
 
-    private final Bicycle bicycle;
+     void ride();
 
-    public BikeRide(Bicycle bicycle){
-        this.bicycle = bicycle;
-
-
-      }
-
-    public void ride() {
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.accelerate();
-        this.bicycle.brake();
-        this.bicycle.brake();
-        this.bicycle.accelerate();
-    }
-
-    public int currentSpeed() {
-        return this.bicycle.currentSpeed();
-    }
+     int currentSpeed();
 
 
 }
