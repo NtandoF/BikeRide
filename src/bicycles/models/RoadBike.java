@@ -1,16 +1,17 @@
-package bicycles;
+package bicycles.models;
 
-public class MountainBike extends BicycleBase {
+import bicycles.BicycleBase;
+
+public class RoadBike extends BicycleBase {
 
 //    private int speed = 0;
 
-    public void accelerate() {
-        changeSpeed(5);
+    public void accelerate(){
+        changeSpeed(11 );
     }
 
     public void brake(){
-
-        changeSpeed(3);
+        changeSpeed(4  );
     }
 
 //    public int currentSpeed(){

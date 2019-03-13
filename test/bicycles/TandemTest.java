@@ -1,5 +1,9 @@
 package bicycles;
 
+import bicycles.models.Tandem;
+import bicycles.rides.BikeRideOne;
+import bicycles.rides.BikeRideThree;
+import bicycles.rides.BikeRideTwo;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
