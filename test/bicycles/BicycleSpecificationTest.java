@@ -1,5 +1,6 @@
 package bicycles;
 
+import bicycles.models.MountainBike;
 import bicycles.rides.BikeRideOne;
 import org.junit.jupiter.api.Test;
 
@@ -10,24 +11,36 @@ class BicycleSpecificationTest {
     @Test
     void MountainBikeTest(){
 
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
         Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRideOne mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();
 
-        assertEquals(52, mBikeRide.currentSpeed());
+        assertEquals(26, mBikeRide.currentSpeed());
 
     }
 
     @Test
     void RoadBikeTest(){
 
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4, BicycleType.RoadBike);
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
 
         assertEquals(52, bikeRide.currentSpeed());
+
+    }
+
+    @Test
+    void TandemTest(){
+
+        BicycleSpecification TandemSpec = new BicycleSpecification(12, 7, BicycleType.RoadBike);
+        Bicycle bicycle = new BicycleFromSpec(TandemSpec);
+        BikeRideOne bikeRide = new BikeRideOne(bicycle);
+        bikeRide.ride();
+
+        assertEquals(62, bikeRide.currentSpeed());
 
     }
 }

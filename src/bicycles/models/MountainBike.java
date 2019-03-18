@@ -1,10 +1,16 @@
 package bicycles.models;
 
 import bicycles.BicycleBase;
+import bicycles.BicycleType;
 
 public class MountainBike extends BicycleBase {
 
 //    private int speed = 0;
+
+    @Override
+    public BicycleType BicycleType() {
+        return BicycleType.MountainBike;
+    }
 
     public void accelerate() {
         changeSpeed(5);
@@ -14,6 +20,7 @@ public class MountainBike extends BicycleBase {
 
         changeSpeed(3);
     }
+
 
 //    public int currentSpeed(){
 //        return speed;

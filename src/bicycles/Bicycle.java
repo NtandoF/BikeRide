@@ -2,6 +2,7 @@ package bicycles;
 
 public interface Bicycle {
 
+     BicycleType BicycleType();
 
      void accelerate();
 
@@ -10,6 +11,9 @@ public interface Bicycle {
      int currentSpeed();
 
      void stop();
+
 }
+
+
 
 
