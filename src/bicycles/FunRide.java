@@ -37,8 +37,9 @@ public class FunRide {
         }
         return count;
     }
+
+    //
+    public int getEnteredCount() {
+        return this.List.size();
+    }
 }
-//
-//    public int getEnteredCount(){
-//        return this.List.size();
-//    }

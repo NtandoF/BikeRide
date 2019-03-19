@@ -62,4 +62,30 @@ class FunRideTest {
 
     }
 
+    @Test
+    void shouldReturnWithTheCorrectNumberOfBikeTypes(){
+
+        BicycleSpecification RoadBikeSpec = new BicycleSpecification(12, 7, BicycleType.RoadBike);
+        Bicycle bicycle = new BicycleFromSpec(RoadBikeSpec);
+        BikeRideOne bikeRide = new BikeRideOne(bicycle);
+        bikeRide.ride();
+
+        Bicycle RoadBike = new RoadBike();
+        Bicycle Tandem = new Tandem();
+
+        FunRide funRide = new FunRide(6);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle);
+
+
+
+
+        assertEquals(6, funRide.getEnteredCount());
+
+    }
+
 }
