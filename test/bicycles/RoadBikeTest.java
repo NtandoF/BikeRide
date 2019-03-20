@@ -11,36 +11,26 @@ import static org.junit.jupiter.api.Assertions.*;
 class RoadBikeTest {
 
     @Test
-    public void shouldReturnTheCurrentSpeedOfBikeRideOne() {
+    public void shouldAccelerate() {
 
         RoadBike bicycle = new RoadBike();
-        BikeRideOne bikeRide = new BikeRideOne(bicycle);
-        bikeRide.ride();
-
-        assertEquals(52, bikeRide.currentSpeed());
-
+        bicycle.accelerate();
+        assertEquals(11, bicycle.currentSpeed());
 
     }
 
     @Test
-    public void shouldReturnTheCurrentSpeedOfBikeRideTwo() {
-
+    public void shouldBrake() {
         RoadBike bicycle = new RoadBike();
-        BikeRideTwo bikeRide = new BikeRideTwo(bicycle);
-        bikeRide.ride();
-
-        assertEquals(111, bikeRide.currentSpeed());
-
+        bicycle.brake();
+        assertEquals(4, bicycle.currentSpeed());
     }
 
     @Test
-    public void shouldReturnTheCurrentSpeedOfBikeRideThree() {
-
+    public void shouldStop() {
         RoadBike bicycle = new RoadBike();
-        BikeRideThree bikeRide = new BikeRideThree(bicycle);
-        bikeRide.ride();
-
-        assertEquals(80, bikeRide.currentSpeed());
+        bicycle.stop();
+        assertEquals(0, bicycle.currentSpeed());
 
     }
 

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class FunRide {
 
-    private ArrayList<Bicycle> List = new ArrayList<Bicycle>();
+    private ArrayList<Bicycle> bikeList = new ArrayList<Bicycle>();
     private int maxBikeCount = 0;
     private int count = 0;
 
@@ -18,7 +18,7 @@ public class FunRide {
     public void accept(Bicycle bicycle) {
 
         if (count < maxBikeCount) {
-            List.add(bicycle);
+            bikeList.add(bicycle);
             count++;
             System.out.println("Accepted " + count);
         } else {
@@ -28,11 +28,12 @@ public class FunRide {
 
     public int getCountForType(BicycleType bicycle) {
         count = 0;
-        for (int x = 0; x < List.size(); x++) {
-
-            if (List.get(x).BicycleType() == bicycle) {
+        for (Bicycle bike : bikeList) {
+            System.out.println();
+            //}
+            if (bike.BicycleType() == bicycle) {
                 count++;
-//                System.out.println(count);
+
             }
         }
         return count;
@@ -40,6 +41,6 @@ public class FunRide {
 
     //
     public int getEnteredCount() {
-        return this.List.size();
+        return this.bikeList.size();
     }
 }

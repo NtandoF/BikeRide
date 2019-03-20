@@ -11,33 +11,27 @@ import static org.junit.jupiter.api.Assertions.*;
    class  TandemTest{
 
     @Test
-    public void shouldReturnTheCurrentSpeedOfBikeRideOne(){
+    public void shouldAccelerate(){
 
         Tandem bicycle = new Tandem();
-        BikeRideOne bikeRide = new BikeRideOne(bicycle);
-        bikeRide.ride();
-
-        assertEquals(62, bikeRide.currentSpeed());
+        bicycle.accelerate();
+        assertEquals(12, bicycle.currentSpeed());
     }
 
        @Test
-       public void shouldReturnTheCurrentSpeedOfBikeRideTwo(){
+       public void shouldBrake(){
 
            Tandem bicycle = new Tandem();
-           BikeRideTwo bikeRide = new BikeRideTwo(bicycle);
-           bikeRide.ride();
-
-           assertEquals(129, bikeRide.currentSpeed());
+           bicycle.brake();
+           assertEquals(7, bicycle.currentSpeed());
        }
 
        @Test
-       public void shouldReturnTheCurrentSpeedOfBikeRideThree(){
+       public void shouldStop(){
 
            Tandem bicycle = new Tandem();
-           BikeRideThree bikeRide = new BikeRideThree(bicycle);
-           bikeRide.ride();
-
-           assertEquals(111, bikeRide.currentSpeed());
+           bicycle.stop();
+           assertEquals(0, bicycle.currentSpeed());
        }
 
 }
