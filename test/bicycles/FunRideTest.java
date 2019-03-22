@@ -58,7 +58,7 @@ class FunRideTest {
 
 
 
-        assertEquals(5, funRide.getCountForType(BicycleType.RoadBike));
+        assertEquals(6, funRide.getCountForType(BicycleType.RoadBike));
 
     }
 

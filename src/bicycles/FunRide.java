@@ -8,7 +8,7 @@ public class FunRide {
 
     private ArrayList<Bicycle> bikeList = new ArrayList<Bicycle>();
     private int maxBikeCount = 0;
-    private int count = 0;
+
 
     public FunRide(int max) {
         this.maxBikeCount = max;
@@ -16,7 +16,7 @@ public class FunRide {
     }
 
     public void accept(Bicycle bicycle) {
-
+       int count = 0;
         if (count < maxBikeCount) {
             bikeList.add(bicycle);
             count++;
@@ -27,7 +27,7 @@ public class FunRide {
     }
 
     public int getCountForType(BicycleType bicycle) {
-        count = 0;
+        int count = 0;
         for (Bicycle bike : bikeList) {
             System.out.println();
             //}
