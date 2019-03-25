@@ -1,7 +1,7 @@
-package BikeRide.BicycleSpecification;
+package bikeRide.specification;
 
-import BikeRide.BicycleBase;
-import BikeRide.BicycleType;
+import bikeRide.BicycleBase;
+import bikeRide.BicycleType;
 
 public class BicycleFromSpec extends BicycleBase {
     private final BicycleSpecification bicycleSpecification;

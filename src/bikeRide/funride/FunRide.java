@@ -1,8 +1,8 @@
-package BikeRide.FunRide;
+package bikeRide.funride;
 
 
-import BikeRide.Bicycle;
-import BikeRide.BicycleType;
+import bikeRide.Bicycle;
+import bikeRide.BicycleType;
 
 import java.util.ArrayList;
 

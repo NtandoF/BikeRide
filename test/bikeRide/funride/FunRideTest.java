@@ -1,12 +1,11 @@
-package FunRideTests;
+package bikeRide.funride;
 
-import BikeRide.*;
-import BikeRide.BicycleSpecification.BicycleFromSpec;
-import BikeRide.BicycleSpecification.BicycleSpecification;
-import BikeRide.FunRide.FunRide;
-import BikeRide.models.RoadBike;
-import BikeRide.models.Tandem;
-import BikeRide.rides.BikeRideOne;
+import bikeRide.*;
+import bikeRide.specification.BicycleFromSpec;
+import bikeRide.specification.BicycleSpecification;
+import bikeRide.models.RoadBike;
+import bikeRide.models.Tandem;
+import bikeRide.rides.BikeRideOne;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

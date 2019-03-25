@@ -1,12 +1,12 @@
-package BikeRide.rides;
+package bikeRide.rides;
 
-import BikeRide.Bicycle;
+import bikeRide.Bicycle;
 
-public class BikeRideOne {
+public class BikeRideTwo  {
 
     private final Bicycle bicycle;
 
-    public BikeRideOne(Bicycle bicycle){
+    public BikeRideTwo(Bicycle bicycle){
         this.bicycle = bicycle;
 
 
@@ -18,6 +18,12 @@ public class BikeRideOne {
         this.bicycle.accelerate();
         this.bicycle.brake();
         this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
+        this.bicycle.accelerate();
         this.bicycle.accelerate();
     }
 

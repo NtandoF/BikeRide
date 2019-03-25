@@ -1,6 +1,6 @@
-package BikeRide;
+package bikeRide.models;
 
-import BikeRide.models.MountainBike;
+import bikeRide.models.MountainBike;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

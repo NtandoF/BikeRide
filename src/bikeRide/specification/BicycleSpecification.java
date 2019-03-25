@@ -1,7 +1,6 @@
-package BikeRide.BicycleSpecification;
+package bikeRide.specification;
 
-import BikeRide.BikeRide;
-import BikeRide.BicycleType;
+import bikeRide.BicycleType;
 
 public class BicycleSpecification {
 
