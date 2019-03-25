@@ -1,5 +1,8 @@
-package bicycles;
+package BikeRide.FunRide;
 
+
+import BikeRide.Bicycle;
+import BikeRide.BicycleType;
 
 import java.util.ArrayList;
 

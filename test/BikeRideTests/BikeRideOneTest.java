@@ -1,9 +1,9 @@
-package bicycles;
+package BikeRideTests;
 
-import bicycles.models.MountainBike;
-import bicycles.models.RoadBike;
-import bicycles.models.Tandem;
-import bicycles.rides.BikeRideOne;
+import BikeRide.models.MountainBike;
+import BikeRide.models.RoadBike;
+import BikeRide.models.Tandem;
+import BikeRide.rides.BikeRideOne;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,7 +1,7 @@
-package bicycles.models;
+package BikeRide.models;
 
-import bicycles.BicycleBase;
-import bicycles.BicycleType;
+import BikeRide.BicycleBase;
+import BikeRide.BicycleType;
 
 public class Tandem extends BicycleBase {
 

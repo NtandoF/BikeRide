@@ -1,7 +1,10 @@
-package bicycles;
+package BicycleSpecificationTests;
 
-import bicycles.models.MountainBike;
-import bicycles.rides.BikeRideOne;
+import BikeRide.Bicycle;
+import BikeRide.BicycleSpecification.BicycleFromSpec;
+import BikeRide.BicycleSpecification.BicycleSpecification;
+import BikeRide.BicycleType;
+import BikeRide.rides.BikeRideOne;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

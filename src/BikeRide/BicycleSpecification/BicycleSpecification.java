@@ -1,4 +1,7 @@
-package bicycles;
+package BikeRide.BicycleSpecification;
+
+import BikeRide.BikeRide;
+import BikeRide.BicycleType;
 
 public class BicycleSpecification {
 

@@ -1,6 +1,6 @@
-package bicycles.rides;
+package BikeRide.rides;
 
-import bicycles.Bicycle;
+import BikeRide.Bicycle;
 
 public class BikeRideTwo  {
 

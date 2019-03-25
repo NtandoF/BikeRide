@@ -1,4 +1,4 @@
-package bicycles;
+package BikeRide;
 
 public enum BicycleType {
 

@@ -1,6 +1,4 @@
-package bicycles;
-
-import bicycles.Bicycle;
+package BikeRide;
 
 public interface BikeRide {
 
