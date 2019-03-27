@@ -20,7 +20,7 @@ public class FunRide {
 
     public void accept(Bicycle bicycle) {
        int count = 0;
-        if (count < maxBikeCount) {
+        if (maxBikeCount > bikeList.size()) {
             bikeList.add(bicycle);
             count++;
             System.out.println("Accepted " + count);
