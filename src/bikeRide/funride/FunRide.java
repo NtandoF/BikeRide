@@ -20,7 +20,7 @@ public class FunRide {
 
     public void accept(Bicycle bicycle) {
        int count = 0;
-        if (maxBikeCount > bikeList.size()) {
+        if (maxBikeCount > bikeList.size() && !bikeList.contains(bicycle)) {
             bikeList.add(bicycle);
             count++;
             System.out.println("Accepted " + count);
@@ -32,8 +32,6 @@ public class FunRide {
     public int getCountForType(BicycleType bicycle) {
         int count = 0;
         for (Bicycle bike : bikeList) {
-            System.out.println();
-            //}
             if (bike.BicycleType() == bicycle) {
                 count++;
 
@@ -42,7 +40,6 @@ public class FunRide {
         return count;
     }
 
-    //
     public int getEnteredCount() {
         return this.bikeList.size();
     }

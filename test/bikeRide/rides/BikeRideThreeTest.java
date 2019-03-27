@@ -17,7 +17,6 @@ class BikeRideThreeTest {
         bikeRide.ride();
 
         assertEquals(80, bikeRide.currentSpeed());
-
     }
 
     @Test
@@ -28,7 +27,6 @@ class BikeRideThreeTest {
         bikeRide.ride();
 
         assertEquals(47, bikeRide.currentSpeed());
-
     }
 
     @Test
@@ -39,7 +37,6 @@ class BikeRideThreeTest {
         bikeRide.ride();
 
         assertEquals(111, bikeRide.currentSpeed());
-
     }
 
 

@@ -25,6 +25,7 @@ class MountainBikeTest {
 
     @Test
     public void shouldStop(){
+
         MountainBike bicycle = new MountainBike();
         bicycle.stop();
         assertEquals(0, bicycle.currentSpeed());

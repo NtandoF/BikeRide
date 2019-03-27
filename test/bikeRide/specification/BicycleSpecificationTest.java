@@ -18,7 +18,6 @@ class BicycleSpecificationTest {
         mBikeRide.ride();
 
         assertEquals(26, mBikeRide.currentSpeed());
-
     }
 
     @Test
@@ -30,7 +29,6 @@ class BicycleSpecificationTest {
         bikeRide.ride();
 
         assertEquals(52, bikeRide.currentSpeed());
-
     }
 
     @Test
@@ -42,6 +40,5 @@ class BicycleSpecificationTest {
         bikeRide.ride();
 
         assertEquals(62, bikeRide.currentSpeed());
-
     }
 }

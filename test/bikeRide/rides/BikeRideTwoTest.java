@@ -17,7 +17,6 @@ class BikeRideTwoTest {
             bikeRide.ride();
 
             assertEquals(111, bikeRide.currentSpeed());
-
         }
 
     @Test
@@ -28,8 +27,7 @@ class BikeRideTwoTest {
         bikeRide.ride();
 
         assertEquals(54, bikeRide.currentSpeed());
-
-    }
+        }
 
     @Test
     void TandemTest(){
@@ -39,7 +37,6 @@ class BikeRideTwoTest {
         bikeRide.ride();
 
         assertEquals(129, bikeRide.currentSpeed());
-
-    }
+        }
 
 }

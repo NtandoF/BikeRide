@@ -5,8 +5,6 @@ import bikeRide.BicycleType;
 
 public class RoadBike extends BicycleBase {
 
-//    private int speed = 0;
-
     @Override
     public BicycleType BicycleType() {
         return BicycleType.RoadBike;
@@ -19,12 +17,4 @@ public class RoadBike extends BicycleBase {
     public void brake(){
         changeSpeed(4  );
     }
-
-//    public int currentSpeed(){
-//        return speed;
-//    }
-//
-//    public void stop(){
-//        speed = 0;
-//    }
 }
