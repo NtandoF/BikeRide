@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f440c36e-64bf-47fa-85a9-5c42e48f6de4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bikeRide/funride/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bikeRide/funride/FunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bikeRide/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bikeRide/models/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bikeRide/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bikeRide/models/RoadBike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/bikeRide/funride/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/funride/FunRideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bikeRide/models/MountainBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/models/MountainBikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bikeRide/models/RoadBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/models/RoadBikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bikeRide/rides/BikeRideOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/rides/BikeRideOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bikeRide/rides/BikeRideThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/rides/BikeRideThreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bikeRide/rides/BikeRideTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/rides/BikeRideTwoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -88,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/bikeRide/funride/FunRideTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="951">
+              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -178,11 +170,11 @@
         <option value="$PROJECT_DIR$/test/bikeRide/rides/BikeRideOneTest.java" />
         <option value="$PROJECT_DIR$/test/bikeRide/rides/BikeRideThreeTest.java" />
         <option value="$PROJECT_DIR$/test/bikeRide/rides/BikeRideTwoTest.java" />
-        <option value="$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java" />
         <option value="$PROJECT_DIR$/src/bikeRide/models/MountainBike.java" />
         <option value="$PROJECT_DIR$/src/bikeRide/models/RoadBike.java" />
         <option value="$PROJECT_DIR$/src/bikeRide/funride/FunRide.java" />
         <option value="$PROJECT_DIR$/test/bikeRide/funride/FunRideTest.java" />
+        <option value="$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java" />
       </list>
     </option>
   </component>
@@ -228,6 +220,13 @@
               <item name="BikeRide" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="bikeRide" type="462c0819:PsiDirectoryNode" />
+              <item name="rides" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BikeRide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BikeRide" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="bikeRide" type="462c0819:PsiDirectoryNode" />
               <item name="specification" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -254,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553689316057" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553691988501" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -277,26 +276,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunRideTest.shouldReturnWithTheCorrectBikeTypes">
-    <configuration name="All in BikeRide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BicycleSpecificationTest">
+    <configuration name="BicycleSpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bikeRide.specification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bikeRide.specification" />
+      <option name="MAIN_CLASS_NAME" value="bikeRide.specification.BicycleSpecificationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunRideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BicycleSpecificationTest.RoadBikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bikeRide.rides.*" />
+          <option name="PATTERN" value="bikeRide.specification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bikeRide.funride" />
-      <option name="MAIN_CLASS_NAME" value="bikeRide.funride.FunRideTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="bikeRide.specification" />
+      <option name="MAIN_CLASS_NAME" value="bikeRide.specification.BicycleSpecificationTest" />
+      <option name="METHOD_NAME" value="RoadBikeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BicycleSpecificationTest.TandemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bikeRide.specification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bikeRide.specification" />
+      <option name="MAIN_CLASS_NAME" value="bikeRide.specification.BicycleSpecificationTest" />
+      <option name="METHOD_NAME" value="TandemTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BicycleSpecificationTest.TandemTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bikeRide.specification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bikeRide.specification" />
+      <option name="MAIN_CLASS_NAME" value="bikeRide.specification.BicycleSpecificationTest" />
+      <option name="METHOD_NAME" value="TandemTypeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,45 +356,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunRideTest.shouldReturnWithTheCorrectBikeTypesAccepted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bikeRide.rides.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bikeRide.funride" />
-      <option name="MAIN_CLASS_NAME" value="bikeRide.funride.FunRideTest" />
-      <option name="METHOD_NAME" value="shouldReturnWithTheCorrectBikeTypesAccepted" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunRideTest.shouldReturnWithTheCorrectNumberOfBikeTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bikeRide.funride.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bikeRide.funride" />
-      <option name="MAIN_CLASS_NAME" value="bikeRide.funride.FunRideTest" />
-      <option name="METHOD_NAME" value="shouldReturnWithTheCorrectNumberOfBikeTypes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BicycleSpecificationTest" />
+        <item itemvalue="JUnit.BicycleSpecificationTest.TandemTypeTest" />
+        <item itemvalue="JUnit.BicycleSpecificationTest.TandemTest" />
+        <item itemvalue="JUnit.BicycleSpecificationTest.RoadBikeTest" />
         <item itemvalue="JUnit.FunRideTest.shouldReturnWithTheCorrectBikeTypes" />
-        <item itemvalue="JUnit.FunRideTest.shouldReturnWithTheCorrectBikeTypesAccepted" />
-        <item itemvalue="JUnit.FunRideTest.shouldReturnWithTheCorrectNumberOfBikeTypes" />
-        <item itemvalue="JUnit.All in BikeRide" />
-        <item itemvalue="JUnit.FunRideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -373,35 +380,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunRideTest - 2019.03.27 at 11h 04m 45s.xml">
-      <configuration name="FunRideTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectBikeTypesAccepted - 2019.03.27 at 11h 05m 13s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectBikeTypesAccepted" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BikeRide - 2019.03.27 at 13h 03m 43s.xml">
-      <configuration name="All in BikeRide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectNumberOfBikeTypes - 2019.03.27 at 13h 05m 44s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectNumberOfBikeTypes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectBikeTypes - 2019.03.27 at 13h 06m 23s.xml">
+    <history-entry file="FunRideTest_shouldReturnWithTheCorrectBikeTypes - 2019.03.27 at 14h 47m 19s.xml">
       <configuration name="FunRideTest.shouldReturnWithTheCorrectBikeTypes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectNumberOfBikeTypes - 2019.03.27 at 14h 16m 28s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectNumberOfBikeTypes" configurationId="JUnit" />
+    <history-entry file="BicycleSpecificationTest_RoadBikeTest - 2019.03.27 at 14h 52m 12s.xml">
+      <configuration name="BicycleSpecificationTest.RoadBikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectNumberOfBikeTypes - 2019.03.27 at 14h 16m 44s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectNumberOfBikeTypes" configurationId="JUnit" />
+    <history-entry file="BicycleSpecificationTest_RoadBikeTest - 2019.03.27 at 14h 56m 49s.xml">
+      <configuration name="BicycleSpecificationTest.RoadBikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectBikeTypesAccepted - 2019.03.27 at 14h 16m 56s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectBikeTypesAccepted" configurationId="JUnit" />
+    <history-entry file="BicycleSpecificationTest_RoadBikeTest - 2019.03.27 at 14h 57m 01s.xml">
+      <configuration name="BicycleSpecificationTest.RoadBikeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectBikeTypesAccepted - 2019.03.27 at 14h 18m 50s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectBikeTypesAccepted" configurationId="JUnit" />
+    <history-entry file="BicycleSpecificationTest_TandemTest - 2019.03.27 at 14h 57m 38s.xml">
+      <configuration name="BicycleSpecificationTest.TandemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunRideTest_shouldReturnWithTheCorrectBikeTypesAccepted - 2019.03.27 at 14h 20m 15s.xml">
-      <configuration name="FunRideTest.shouldReturnWithTheCorrectBikeTypesAccepted" configurationId="JUnit" />
+    <history-entry file="BicycleSpecificationTest_TandemTest - 2019.03.27 at 14h 57m 57s.xml">
+      <configuration name="BicycleSpecificationTest.TandemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicycleSpecificationTest - 2019.03.27 at 14h 58m 35s.xml">
+      <configuration name="BicycleSpecificationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicycleSpecificationTest - 2019.03.27 at 15h 01m 52s.xml">
+      <configuration name="BicycleSpecificationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicycleSpecificationTest_TandemTypeTest - 2019.03.27 at 15h 03m 14s.xml">
+      <configuration name="BicycleSpecificationTest.TandemTypeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BicycleSpecificationTest - 2019.03.27 at 15h 04m 48s.xml">
+      <configuration name="BicycleSpecificationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -449,8 +456,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java</url>
-          <line>11</line>
-          <properties class="bicycleSpecificationTests.BicycleSpecificationTest">
+          <line>12</line>
+          <properties class="bikeRide.specification.BicycleSpecificationTest" method="MountainBikeAccelarationTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
@@ -609,20 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/bikeRide/rides/BikeRideOneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bikeRide/funride/FunRide.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -635,11 +628,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/bikeRide/funride/FunRideTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bikeRide/rides/BikeRideOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bikeRide/specification/BicycleSpecificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
         </state>
       </provider>
     </entry>

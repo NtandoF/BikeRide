@@ -20,6 +20,7 @@ class FunRideTest {
         funRide.accept(RoadBike);
         funRide.accept(Tandem);
         funRide.accept(RoadBike2);
+        funRide.accept(RoadBike2);
 
         assertEquals(2, funRide.getCountForType(BicycleType.RoadBike));
 
