@@ -10,8 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class BikeRideOneTest {
 
     @Test
-    public void BikeRideOne() {
-
+    public void RoadBikeOnRideOneTest() {
         RoadBike bicycle = new RoadBike();
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
@@ -21,8 +20,7 @@ class BikeRideOneTest {
     }
 
     @Test
-    void MountainBikeTest(){
-
+    void MountainOnRideOneBikeTest(){
         MountainBike bicycle = new MountainBike();
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
@@ -31,8 +29,7 @@ class BikeRideOneTest {
     }
 
     @Test
-    void TandemTest(){
-
+    void TandemOnRideOneTest(){
         Tandem bicycle = new Tandem();
         BikeRideOne bikeRide = new BikeRideOne(bicycle);
         bikeRide.ride();
